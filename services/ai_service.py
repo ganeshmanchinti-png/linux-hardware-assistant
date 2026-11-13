@@ -6,7 +6,7 @@ import urllib.error
 from services.tool_executor import execute_tool
 
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
-MODEL_NAME = "llama-3.3-70b-versatile"
+MODEL_NAME = "openai/gpt-oss-120b"
 
 ALLOWED_TOOLS = ["cpu", "memory", "storage", "gpu"]
 
