@@ -44,9 +44,10 @@ def call_groq(messages):
         GROQ_URL,
         data=json.dumps(data).encode("utf-8"),
         headers={
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {api_key}"
-        },
+    "Content-Type": "application/json",
+    "Authorization": f"Bearer {api_key}",
+    "User-Agent": "Linux-Hardware-Assistant/1.0"
+},
         method="POST"
     )
 
