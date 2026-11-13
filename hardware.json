@@ -1,0 +1,48 @@
+{
+    "cpu": {
+        "model_name": "12th Gen Intel(R) Core(TM) i5-12450H",
+        "architecture": "x86_64",
+        "cpu_cores": "6",
+        "threads": "12",
+        "vendor": "GenuineIntel"
+    },
+    "memory": {
+        "total_bytes": 8167571456,
+        "used_bytes": 546914304,
+        "free_bytes": 7185858560,
+        "available_bytes": 7620657152
+    },
+    "storage": [
+        {
+            "name": "sda",
+            "size": 407490560,
+            "type": "disk",
+            "mountpoint": null,
+            "model": "Virtual Disk"
+        },
+        {
+            "name": "sdb",
+            "size": 195080192,
+            "type": "disk",
+            "mountpoint": null,
+            "model": "Virtual Disk"
+        },
+        {
+            "name": "sdc",
+            "size": 2147487744,
+            "type": "disk",
+            "mountpoint": "[SWAP]",
+            "model": "Virtual Disk"
+        },
+        {
+            "name": "sdd",
+            "size": 1099511627776,
+            "type": "disk",
+            "mountpoint": "/mnt/wslg/distro",
+            "model": "Virtual Disk"
+        }
+    ],
+    "gpu": [
+        "aa8b:00:00.0 3D controller: Microsoft Corporation Basic Render Driver"
+    ]
+}
